@@ -249,7 +249,7 @@ class EggInfoBase(object):
 
 
 class EggInfo_Legacy(EggInfoBase):
-    """Compute egg metadata from PEP427 Wheel 1.0 metadata.
+    r"""Compute egg metadata from PEP427 Wheel 1.0 metadata.
 
     This is for ``.whl`` produced by the current version (0.24.0) of
     ``wheel``\s ``bdist_wheel`` setup command.  It uses the
